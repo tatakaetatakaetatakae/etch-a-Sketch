@@ -1,0 +1,30 @@
+/* *{
+    outline : 2px solid red;
+} */
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+#container{
+    display: flex;
+    border: 0.1px solid black;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
+    /* gap: 0.25rem; */
+}
+.square{
+    background-color: white;
+}
+button{
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(43, 125, 240);
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    cursor: pointer;
+}
